@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* 
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -24,4 +24,28 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+.bg-car {
+  background-image: url("https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-car-2 {
+  background-image: url("https://images.pexels.com/photos/3457780/pexels-photo-3457780.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-custom {
+  background-color: #eab308 !important;
+  color: white;
+  border: none !important;
+}
+
+.btn-custom:hover {
+  background-color: #f5cb4b !important;
+  color: white !important;
+  border: none !important;
 }
